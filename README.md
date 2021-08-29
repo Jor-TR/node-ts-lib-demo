@@ -1,7 +1,6 @@
 # node-ts-lib-demo
 a demo to write a simple library with node.js and typescript
 > https://basarat.gitbook.io/typescript/library
->
 > https://basarat.gitbook.io/typescript/nodejs
 
 ### 关键字
