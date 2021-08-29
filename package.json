@@ -1,0 +1,29 @@
+{
+  "name": "node-ts-lib-demo",
+  "version": "1.0.0",
+  "description": "a demo to write a simple library with node.js and typescript",
+  "main": "./lib/index",
+  "types": "./lib/index",
+  "scripts": {
+    "build": "tsc",
+    "test:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' ./src/test.ts",
+    "test": "ts-node ./src/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jor-TR/node-ts-lib-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jor-TR/node-ts-lib-demo/issues"
+  },
+  "homepage": "https://github.com/Jor-TR/node-ts-lib-demo#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.5",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
